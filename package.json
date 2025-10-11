@@ -1,0 +1,16 @@
+{
+  "name": "monokai-fixed",
+  "displayName": "Monokai (alt)",
+  "publisher": "local",
+  "version": "0.0.1",
+  "engines": { "vscode": "^1.0.0" },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Monokai (alt)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/monokai-color-theme.json"
+      }
+    ]
+  }
+}
