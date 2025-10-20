@@ -150,10 +150,22 @@
 			"name": "Template Definition",
 			"scope": [
 				"punctuation.definition.template-expression",
-				"punctuation.section.embedded"
+				"punctuation.section.embedded",
+				"punctuation.separator.statement.and"
 			],
 			"settings": {
 				"foreground": "#F92672"
+			}
+		},
+		{
+			"name": "Statement Termination",
+			"scope": [
+				"punctuation.terminator.statement",
+				"punctuation.separator.comma",
+				"punctuation.separator.arguments"
+			],
+			"settings": {
+				// TODO
 			}
 		},
 		{
@@ -186,14 +198,14 @@
 				"foreground": "#AE81FF"
 			}
 		},
-		{
-			"name": "Variable",
-			"scope": "variable",
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#F8F8F2"
-			}
-		},
+		// {
+		// 	"name": "Variable",
+		// 	"scope": "variable",
+		// 	"settings": {
+		// 		"fontStyle": "",
+		// 		"foreground": "#F8F8F2"
+		// 	}
+		// },
 		// ADDED
 		{
 			"name": "Variable and parameter name",
@@ -202,7 +214,10 @@
 				"variable.other.object",
 				"variable.other.property",
 				"meta.definition.variable.name",
-				"support.variable"
+				"support.variable",
+				"variable.other.assignment",
+				"variable.other.normal",
+				"variable.other.for",
 			],
 			"settings": {
 				"foreground": "#43D4B6"
