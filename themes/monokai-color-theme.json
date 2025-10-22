@@ -217,6 +217,7 @@
 				"variable.other.assignment",
 				"variable.other.normal",
 				"variable.other.for",
+				"variable.other.member.hcl",
 			],
 			"settings": {
 				"foreground": "#43D4B6"
