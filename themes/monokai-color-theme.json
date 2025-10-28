@@ -158,14 +158,19 @@
 			}
 		},
 		{
-			"name": "Statement Termination",
+			"name": "Punctuation",
 			"scope": [
-				"punctuation.terminator.statement",
+				// "punctuation.terminator.statement",
 				"punctuation.separator.comma",
-				"punctuation.separator.arguments"
+				"punctuation.separator.colon",
+				"punctuation.separator.arguments",
+				"punctuation.section.function.begin.python",
+				"punctuation.separator.annotation.result.python",
+				"punctuation.separator.annotation.python",
+				"punctuation.separator.parameters.python",
 			],
 			"settings": {
-				// TODO
+				"foreground": "#E69F66"
 			}
 		},
 		{
