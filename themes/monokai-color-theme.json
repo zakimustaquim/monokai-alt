@@ -123,7 +123,6 @@
 		},
 		{
 			"scope": [
-				"meta.embedded",
 				"source.groovy.embedded",
 				"string meta.image.inline.markdown",
 				"variable.legacy.builtin.python"
@@ -168,6 +167,7 @@
 			"name": "Punctuation - Purple",
 			"scope": [
 				"punctuation.definition.block.sequence.item",
+				"meta.embedded",
 			],
 			"settings": {
 				"foreground": "#AE81FF"
@@ -178,10 +178,11 @@
 			"name": "Punctuation - Red",
 			"scope": [
 				"punctuation.separator.colon",
-				"punctuation.terminator.statement",
+				"punctuation.terminator",
 				"punctuation.section.function.begin.python",
 				"punctuation.separator.annotation.python",
 				"punctuation.separator.annotation.result.python",
+				"other.source.dart", // Dart generic parameters for some reason are not given any other scope than this
 			],
 			"settings": {
 				"foreground": "#F92672"
@@ -195,10 +196,12 @@
 				"punctuation.separator.array",
 				"punctuation.separator.element",
 				"punctuation.separator.dictionary.pair",
+				"punctuation.comma",
 				"punctuation.separator.comma",
 				"punctuation.separator.arguments",
 				"punctuation.separator.parameter",
 				"punctuation.separator.parameters",
+				"punctuation.dot",
 			],
 			"settings": {
 				"foreground": "#D9B84C"
