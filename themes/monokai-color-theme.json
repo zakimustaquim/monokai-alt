@@ -158,7 +158,7 @@
 			}
 		},
 		{
-			"name": "Punctuation",
+			"name": "Punctuation - Light Brown",
 			"scope": [
 				// "punctuation.terminator.statement",
 				"punctuation.separator.comma",
@@ -171,6 +171,45 @@
 			],
 			"settings": {
 				"foreground": "#E69F66"
+			}
+		},
+		{
+			"name": "Punctuation - Purple",
+			"scope": [
+				"punctuation.definition.block.sequence.item",
+			],
+			"settings": {
+				"foreground": "#AE81FF"
+			}
+		},
+		{
+			"name": "Punctuation - Red",
+			"scope": [
+				"punctuation.terminator.statement",
+			],
+			"settings": {
+				"foreground": "#F92672"
+			}
+		},
+		{
+			"name": "Punctuation - Amber",
+			"scope": [
+				"punctuation.separator.key-value.mapping",
+				"punctuation.separator.array",
+				"punctuation.separator.element",
+				"punctuation.separator.dictionary.pair",
+			],
+			"settings": {
+				"foreground": "#D9B84C"
+			}
+		},
+		{
+			"name": "Punctuation - Neon Coral",
+			"scope": [
+				"punctuation.separator.dictionary.key-value",
+			],
+			"settings": {
+				"foreground": "#FF6F61"
 			}
 		},
 		{
