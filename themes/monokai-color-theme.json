@@ -168,7 +168,8 @@
 			"scope": [
 				"punctuation.definition.block.sequence.item",
 				"meta.embedded",
-				"keyword.operator.ternary.dart"
+				"keyword.operator.ternary",
+				"keyword.operator.optional"
 			],
 			"settings": {
 				"foreground": "#AE81FF"
