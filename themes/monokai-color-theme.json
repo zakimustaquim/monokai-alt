@@ -159,16 +159,7 @@
 		},
 		{
 			"name": "Punctuation - Light Brown",
-			"scope": [
-				// "punctuation.terminator.statement",
-				"punctuation.separator.comma",
-				"punctuation.separator.colon",
-				"punctuation.separator.arguments",
-				"punctuation.section.function.begin.python",
-				"punctuation.separator.annotation.result.python",
-				"punctuation.separator.annotation.python",
-				"punctuation.separator.parameters.python",
-			],
+			"scope": [],
 			"settings": {
 				"foreground": "#E69F66"
 			}
@@ -182,15 +173,21 @@
 				"foreground": "#AE81FF"
 			}
 		},
+		// punctuation treated like keywords
 		{
 			"name": "Punctuation - Red",
 			"scope": [
+				"punctuation.separator.colon",
 				"punctuation.terminator.statement",
+				"punctuation.section.function.begin.python",
+				"punctuation.separator.annotation.python",
+				"punctuation.separator.annotation.result.python",
 			],
 			"settings": {
 				"foreground": "#F92672"
 			}
 		},
+		// punctuation that needs to be differentiated but not stick out too much
 		{
 			"name": "Punctuation - Amber",
 			"scope": [
@@ -198,6 +195,10 @@
 				"punctuation.separator.array",
 				"punctuation.separator.element",
 				"punctuation.separator.dictionary.pair",
+				"punctuation.separator.comma",
+				"punctuation.separator.arguments",
+				"punctuation.separator.parameter",
+				"punctuation.separator.parameters",
 			],
 			"settings": {
 				"foreground": "#D9B84C"
