@@ -164,6 +164,13 @@
 			}
 		},
 		{
+			"name": "Punctuation - Light Blue",
+			"scope": [],
+			"settings": {
+				"foreground": "#66D9EF"
+			}
+		},
+		{
 			"name": "Punctuation - Purple",
 			"scope": [
 				"punctuation.definition.block.sequence.item",
@@ -213,6 +220,7 @@
 			"name": "Punctuation - Neon Coral",
 			"scope": [
 				"punctuation.separator.dictionary.key-value",
+				"keyword.operator.new",
 			],
 			"settings": {
 				"foreground": "#FF6F61"
