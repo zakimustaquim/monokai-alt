@@ -175,6 +175,9 @@
 
 				// Dart =>
 				"keyword.operator.closure.dart",
+
+				// C# =>
+				"keyword.operator.arrow.cs",
 			],
 			"settings": {
 				"foreground": "#66D9EF"
@@ -273,6 +276,7 @@
 
 				// New
 				"keyword.operator.new",
+				"keyword.operator.expression.new",
 			],
 			"settings": {
 				"foreground": "#FF6F61"
@@ -429,7 +433,12 @@
 		},
 		{
 			"name": "Class name",
-			"scope": "entity.name.type, entity.name.class, entity.name.namespace, entity.name.scope-resolution",
+			"scope": [
+				"entity.name.type",
+				"entity.name.class",
+				"entity.name.namespace",
+				"entity.name.scope-resolution",
+			],
 			"settings": {
 				"fontStyle": "bold",
 				"foreground": "#A6E22E"
