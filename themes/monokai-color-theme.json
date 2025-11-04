@@ -172,6 +172,9 @@
 				// Subshell
 				"punctuation.definition.subshell.single.shell",
 				"punctuation.separator.statement.background",
+
+				// Dart =>
+				"keyword.operator.closure.dart",
 			],
 			"settings": {
 				"foreground": "#66D9EF"
@@ -241,7 +244,9 @@
 			"name": "Punctuation - Dark Green",
 			"scope": [
 				"keyword.control.import",
-				"keyword.control.export"
+				"keyword.control.export",
+				"keyword.other.import",
+				"keyword.other.export",
 			],
 			"settings": {
 				"foreground": "#5FD068"
@@ -706,6 +711,17 @@
 			"scope": "variable.language",
 			"settings": {
 				"foreground": "#FD971F"
+			}
+		},
+
+		// ┌----------------┐
+		// | DART OVERRIDES |
+		// └----------------┘
+		{
+			"name": "Dart Question Marks",
+			"scope": "keyword.operator.ternary.dart",
+			"settings": {
+				"foreground": "#E89BB5",
 			}
 		},
 
