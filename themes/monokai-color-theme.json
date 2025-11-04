@@ -589,6 +589,20 @@
 			}
 		},
 		{
+			"name": "Markdown Text",
+			"scope": "text.html.markdown",
+			"settings": {
+				"foreground": "#DCC9AA"
+			}
+		},
+		{
+			"name": "Markdown Table",
+			"scope": "markup.table.markdown",
+			"settings": {
+				"foreground": "#D9B84C"
+			}
+		},
+		{
 			"name": "Markup Quote",
 			"scope": "markup.quote",
 			"settings": {
@@ -640,11 +654,25 @@
 			}
 		},
 		{
+			"name": "Markup Code Blocks",
+			"scope": "markup.fenced_code.block.markdown",
+			"settings": {
+				"foreground": "#C9B896",
+			}
+		},
+		{
+			"name": "Markdown Code Block Language Declaration",
+			"scope": "fenced_code.block.language.markdown",
+			"settings": {
+				"foreground": "#F92672",
+			}
+		},
+		{
 			"name": "Markdown Quote",
 			"scope": "markup.quote.markdown",
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#75715E"
+				"foreground": "#E89BB5"
 			}
 		},
 		{
@@ -681,13 +709,13 @@
 				"fontStyle": "strikethrough"
 			}
 		},
-		{
-			"name": "Markdown Punctuation Definition Link",
-			"scope": "markup.list.unnumbered.markdown, markup.list.numbered.markdown",
-			"settings": {
-				"foreground": "#f8f8f2"
-			}
-		},
+		// {
+		// 	"name": "Markdown Punctuation Definition Link",
+		// 	"scope": "markup.list.unnumbered.markdown, markup.list.numbered.markdown",
+		// 	"settings": {
+		// 		"foreground": "#f8f8f2"
+		// 	}
+		// },
 		{
 			"name": "Markdown List Punctuation",
 			"scope": [
