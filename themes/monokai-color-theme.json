@@ -197,7 +197,6 @@
 			"name": "Punctuation - Red",
 			"scope": [
 				// Semicolon
-				"punctuation.terminator",
 
 				// Colon
 				"punctuation.separator.colon",
@@ -241,12 +240,21 @@
 			}
 		},
 		{
+			"name": "Punctuation - Mauve",
+			"scope": [
+				"punctuation.terminator",
+			],
+			"settings": {
+				"foreground": "#D896C8"
+			}
+		},
+		{
 			"name": "Punctuation - Dark Green",
 			"scope": [
-				"keyword.control.import",
-				"keyword.control.export",
-				"keyword.other.import",
-				"keyword.other.export",
+				"keyword.control.import.ts",
+				"keyword.control.export.ts",
+				"keyword.other.import.dart",
+				"keyword.other.export.dart",
 			],
 			"settings": {
 				"foreground": "#5FD068"
