@@ -238,12 +238,24 @@
 			}
 		},
 		{
+			"name": "Punctuation - Dark Green",
+			"scope": [
+				"keyword.control.import",
+				"keyword.control.export"
+			],
+			"settings": {
+				"foreground": "#5FD068"
+			}
+		},
+		{
 			"name": "Punctuation - Neon Coral",
 			"scope": [
 				// Lighter Colon
 				"punctuation.separator.dictionary.key-value",
 				"punctuation.separator.dict",
 				"punctuation.separator.annotation.python",
+				"punctuation.separator.key-value",
+				"keyword.operator.type.annotation.ts",
 
 				// Arrow (->)
 				"punctuation.separator.annotation.result.python",
@@ -695,7 +707,66 @@
 			"settings": {
 				"foreground": "#FD971F"
 			}
-		}
+		},
+
+		// ┌----------------------┐
+		// | TYPESCRIPT OVERRIDES |
+		// └----------------------┘
+
+		// Highlights aliases in TypeScript import statements. It only affects
+		// the import statement (not subsequent references, which correctly
+		// pull the actual type of the reference for token highlighting). This
+		// was left in to clearly differentiate import aliases from other variables.
+		{
+			"name": "TypeScript Aliases",
+			"scope": [
+				"variable.other.readwrite.alias.ts"
+			],
+			"settings": {
+				"foreground": "#E89BB5"
+			}
+		},
+
+		// In TypeScript, the "Function" keyword is treated as a storage type.
+		// In order to differentiate it, it is styled differently.
+		{
+			"name": "TypeScript Function Keyword",
+			"scope": "storage.type.function.ts",
+			"settings": {
+				"foreground": "#FF7F5C",
+				"fontStyle": "italic"
+			}
+		},
+
+		// Personal preference overrides for typeof amd instanceof keywords.
+		{
+			"name": "TypeScript Typeof/Instanceof Keywords",
+			"scope": [
+				"keyword.operator.expression.typeof.ts",
+				"keyword.operator.expression.instanceof.ts"
+			],
+			"settings": {
+				"foreground": "#E89BB5"
+			}
+		},
+
+		// In TypeScript, certain tokens that most languages would consider
+		// keywords are treated as storage types, possibly due to the architecture
+		// in relation to being built off of JavaScript. While differentiating these
+		// from other keywords is important to maintain as it provides relevant 
+		// parsing information, the default cyan color is far too different and 
+		// implies a greater semantic distance. This changes the color to the same
+		// red as the other keywords, but maintains the italicized font style.
+		{
+			"name": "TypeScript Keyword Fixes",
+			"scope": [
+				"storage.type.ts",
+			],
+			"settings": {
+				"foreground": "#F92672",
+				"fontStyle": "italic"
+			}
+		},
 	],
 	"semanticHighlighting": true,
 	// ADDED - don't seem to do anything so I commented them out (disabling semantic highlighting for some reason breaks everything though)
