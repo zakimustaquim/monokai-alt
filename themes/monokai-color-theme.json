@@ -158,14 +158,21 @@
 		},
 		{
 			"name": "Punctuation - Light Brown",
-			"scope": [],
+			"scope": [
+				// EOF in shell
+				"punctuation.definition.string.heredoc.delimiter.shell"
+			],
 			"settings": {
 				"foreground": "#E69F66"
 			}
 		},
 		{
 			"name": "Punctuation - Light Blue",
-			"scope": [],
+			"scope": [
+				// Subshell
+				"punctuation.definition.subshell.single.shell",
+				"punctuation.separator.statement.background",
+			],
 			"settings": {
 				"foreground": "#66D9EF"
 			}
@@ -186,10 +193,18 @@
 		{
 			"name": "Punctuation - Red",
 			"scope": [
-				"punctuation.separator.colon",
+				// Semicolon
 				"punctuation.terminator",
+
+				// Colon
+				"punctuation.separator.colon",
 				"punctuation.section.function.begin.python",
 				"punctuation.section.class.begin",
+
+				// $
+				"punctuation.definition.variable.shell",
+
+				// Misc
 				"other.source.dart", // Dart generic parameters for some reason are not given any other scope than this
 			],
 			"settings": {
@@ -214,6 +229,9 @@
 				// Period
 				"punctuation.dot",
 				"punctuation.separator.period",
+
+				// Shell paths
+				"meta.expression.assignment.modified.shell",
 			],
 			"settings": {
 				"foreground": "#D9B84C"
