@@ -189,8 +189,7 @@
 				"punctuation.separator.colon",
 				"punctuation.terminator",
 				"punctuation.section.function.begin.python",
-				"punctuation.separator.annotation.python",
-				"punctuation.separator.annotation.result.python",
+				"punctuation.section.class.begin",
 				"other.source.dart", // Dart generic parameters for some reason are not given any other scope than this
 			],
 			"settings": {
@@ -201,6 +200,7 @@
 		{
 			"name": "Punctuation - Amber",
 			"scope": [
+				// Comma
 				"punctuation.separator.key-value.mapping",
 				"punctuation.separator.array",
 				"punctuation.separator.element",
@@ -210,7 +210,10 @@
 				"punctuation.separator.arguments",
 				"punctuation.separator.parameter",
 				"punctuation.separator.parameters",
+
+				// Period
 				"punctuation.dot",
+				"punctuation.separator.period",
 			],
 			"settings": {
 				"foreground": "#D9B84C"
@@ -219,7 +222,15 @@
 		{
 			"name": "Punctuation - Neon Coral",
 			"scope": [
+				// Lighter Colon
 				"punctuation.separator.dictionary.key-value",
+				"punctuation.separator.dict",
+				"punctuation.separator.annotation.python",
+
+				// Arrow (->)
+				"punctuation.separator.annotation.result.python",
+
+				// New
 				"keyword.operator.new",
 			],
 			"settings": {
