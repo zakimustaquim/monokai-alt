@@ -196,8 +196,6 @@
 		{
 			"name": "Punctuation - Red",
 			"scope": [
-				// Semicolon
-
 				// Colon
 				"punctuation.separator.colon",
 				"punctuation.section.function.begin.python",
