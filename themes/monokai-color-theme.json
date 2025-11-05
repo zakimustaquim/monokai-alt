@@ -613,7 +613,7 @@
 			"name": "Markup Lists",
 			"scope": "markup.list",
 			"settings": {
-				"foreground": "#E6DB74"
+				"foreground": "#EFE4A0"
 			}
 		},
 		{
