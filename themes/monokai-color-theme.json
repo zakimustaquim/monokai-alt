@@ -617,13 +617,6 @@
 			}
 		},
 		{
-			"name": "Markup Styling",
-			"scope": "markup.bold, markup.italic",
-			"settings": {
-				"foreground": "#66D9EF"
-			}
-		},
-		{
 			"name": "Markup Inline",
 			"scope": "markup.inline.raw",
 			"settings": {
@@ -679,7 +672,8 @@
 			"name": "Markdown Bold",
 			"scope": "markup.bold.markdown",
 			"settings": {
-				"fontStyle": "bold"
+				"fontStyle": "bold",
+				"foreground": "#26A5FF"
 			}
 		},
 		{
@@ -700,7 +694,8 @@
 			"name": "Markdown Emphasis",
 			"scope": "markup.italic.markdown",
 			"settings": {
-				"fontStyle": "italic"
+				"fontStyle": "italic",
+				"foreground": "#66D9EF",
 			}
 		},
 		{
