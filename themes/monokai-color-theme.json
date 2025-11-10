@@ -803,6 +803,15 @@
 				"foreground": "#E89BB5"
 			}
 		},
+		{
+			"name": "TypeScript Keyof Keyword",
+			"scope": [
+				"keyword.operator.expression.keyof.ts",
+			],
+			"settings": {
+				"foreground": "#26A5FF"
+			}
+		},
 
 		// In TypeScript, certain tokens that most languages would consider
 		// keywords are treated as storage types, possibly due to the architecture
