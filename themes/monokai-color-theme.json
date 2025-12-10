@@ -763,6 +763,21 @@
 			}
 		},
 
+		// ┌---------------------┐
+		// | TERRAFORM OVERRIDES |
+		// └---------------------┘
+
+		// Context: the Terraform extension frequently fails to
+		// categorize certain tokens. This override enables highlighting
+		// on those tokens.
+		{
+			"name": "Terraform - Unknown Source Code Within Block",
+			"scope": "meta.block.hcl",
+			"settings": {
+				"foreground": "#26A5FF",
+			}
+		},
+
 		// ┌----------------------┐
 		// | TYPESCRIPT OVERRIDES |
 		// └----------------------┘
