@@ -658,7 +658,7 @@
 			"name": "Markdown Code Block Language Declaration",
 			"scope": "fenced_code.block.language.markdown",
 			"settings": {
-				"foreground": "#F92672",
+				"foreground": "#D9B84C",
 			}
 		},
 		{
