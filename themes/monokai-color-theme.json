@@ -229,6 +229,7 @@
 				"punctuation.separator.parameter",
 				"punctuation.separator.parameters",
 				"punctuation.separator.hcl",
+				"punctuation.accessor",
 
 				// Period
 				"punctuation.dot",
