@@ -772,7 +772,7 @@
 			"name": "Dart - Misc. Source Code",
 			"scope": "source.dart",
 			"settings": {
-				"foreground": "#F92672",
+				"foreground": "#E89BB5",
 			}
 		},
 
