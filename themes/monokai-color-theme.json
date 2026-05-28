@@ -225,6 +225,7 @@
 				"punctuation.separator.dictionary.pair",
 				"punctuation.comma",
 				"punctuation.separator.comma",
+				"punctuation.separator.delimiter",
 				"punctuation.separator.arguments",
 				"punctuation.separator.parameter",
 				"punctuation.separator.parameters",
