@@ -207,6 +207,12 @@
 				// $
 				"punctuation.definition.variable.shell",
 
+				// Angle brackets
+				"punctuation.bracket.angle",
+
+				// @
+				"punctuation.definition.annotation",
+
 				// Misc
 				"other.source.dart", // Dart generic parameters for some reason are not given any other scope than this
 			],
